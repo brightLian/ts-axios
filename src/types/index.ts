@@ -11,14 +11,8 @@ export interface AxiosRequestConfig {
   method?: Method
   data?: any
   params?: any
-}
-
-export interface AxiosRequestConfig {
-  url: string
-  method?: Method
-  data?: any
-  params?: any
-  headers?: any
+  headers?: any,
+  timeout?: number
 }
 
 export interface AxiosResponse {
